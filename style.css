@@ -148,3 +148,47 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
+
+
+/* Botón volver oculto por defecto */
+.back-button {
+  display: none;
+  padding: 10px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* En móviles: muestra botón y cambia diseño */
+@media screen and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-height: 40vh;
+    overflow-y: auto;
+  }
+
+  .chat-window {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .back-button {
+    display: block;
+  }
+
+  .app.hide-sidebar .sidebar {
+    display: none;
+  }
+
+  .app.hide-sidebar .chat-window {
+    height: 100vh;
+  }
+}

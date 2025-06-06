@@ -259,3 +259,21 @@ function sendMessage(id) {
   // Guarda en la estructura (opcional)
   chats[id].messages.push({ from: "sent", text: messageText });
 }
+// Detecta si es pantalla chica
+function esMovil() {
+  return window.innerWidth <= 768;
+}
+
+// Al dar clic en contacto
+document.querySelectorAll(".chat").forEach(chat => {
+  chat.addEventListener("click", () => {
+    if (esMovil()) {
+      document.querySelector(".app").classList.add("hide-sidebar");
+    }
+  });
+});
+
+// Botón para volver
+function volverContactos() {
+  document.querySelector(".app").classList.remove("hide-sidebar");
+}
