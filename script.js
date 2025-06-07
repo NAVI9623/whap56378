@@ -19,8 +19,12 @@ const chats = {
     img: "img-perfil/foto1.jpeg",
     status: "últ. vez hoy a la(s) 1:38 a.m.",
     messages: [
-      { from: "received", text: "¿A qué hora pongo la alarma?" },
-      { from: "sent", text: "6 y media" }
+      { from: "received", text: "a que horaagendo la cita" },
+      { from: "sent", text: "6 y media por favor" },
+      { from: "received", text: "pero me dicen que te ven en la misma plaza esta bien" },
+      { from: "sent", text: "si no tengo problema" },
+      { from: "received", text: "ok" },
+      { from: "sent", text: "gracias" }
     ]
   },
   amigo2: {
@@ -28,8 +32,11 @@ const chats = {
     img: "img-perfil/foto2.jpeg",
     status: "En línea",
     messages: [
-      { from: "received", text: "¿Ya llegaste?" },
-      { from: "sent", text: "Sí, justo ahora." }
+      { from: "received", text: "Ya llegaste" },
+      { from: "sent", text: "Sí" },
+      { from: "sent", text: "en donde estas tu" },
+       { from: "received", text: "en laoficna" },
+       { from: "sent", text: "no tardo" },
     ]
   },
   amigo3: {
@@ -37,8 +44,10 @@ const chats = {
     img: "img-perfil/foto3.jpeg",
     status: "últ. vez hoy a las 10:10 p.m.",
     messages: [
-      { from: "received", text: "¿Dónde andas?" },
-      { from: "sent", text: "Ya casi llego." }
+      { from: "received", text: "hola" },
+      { from: "sent", text: "hola si pudiste entrar a la junta" },
+       { from: "received", text: "no me dicen que no tengo acceso" },
+      { from: "sent", text: "ame unos minutos y lo verifico" }
     ]
   },
   amigo4: {
@@ -46,44 +55,56 @@ const chats = {
     img: "img-perfil/foto4.jpeg",
     status: "En línea",
     messages: [
-      { from: "received", text: "Estoy afuera" },
-      { from: "sent", text: "Ya salgo" }
+      { from: "received", text: "buenos dias" },
+      { from: "sent", text: "solicite la carta a mi nomnre" },
+      { from: "received", text: "disculpe el inconveniente lo modificaremos" },
+      { from: "sent", text: "si ya llevo 2 dias asi por favor" },
+       { from: "sent", text: "y tiene que venir referenciado" },
+       {from: "received", text :"de acuerdo"}
     ]
   },
   amigo5: {
     name: "6181263557",
     img: "img-perfil/foto5.jpeg",
-    status: "últ. vez hoy a las 10:30 p.m.",
+    status: "",
     messages: [
-      { from: "received", text: "Ya casi llego" },
-      { from: "sent", text: "Ok" }
+      { from: "received", text: "amigo coomo estas vas a poder el sabado" },
+      { from: "sent", text: "hola dejame te confirmo en un rato compradre" },
+       { from: "received", text: "de acuerdo para esperarte entonces ese dia" },
+      { from: "sent", text: "si si quieren " }
     ]
   },
   amigo6: {
     name: "618116628",
     img: "img-perfil/foto6.jpeg",
-    status: "últ. vez hoy a las 9:50 p.m.",
+    status: "últ. vez hoy a las 4:26 p.m.",
     messages: [
-      { from: "received", text: "Te veo ahí" },
-      { from: "sent", text: "Va" }
+       { from: "sent", text: "si" },
+      { from: "received", text: "???" },
+      { from: "sent", text: "esperame" }
     ]
   },
   amigo7: {
     name: "6186380827",
     img: "img-perfil/foto7.jpeg",
-    status: "últ. vez hoy a las 9:20 p.m.",
+    status: "últ. vez hoy a las 3:27 p.m.",
     messages: [
-      { from: "received", text: "¿Vienes?" },
+      { from: "sent", text: "pero no entendi muy bien" },
+      { from: "received", text: "opino que tendria que ser mejor comentarle" },
       { from: "sent", text: "Sí" }
     ]
   },
 amigo8: {
     name: "5569367658",
     img: "img-perfil/foto8.jpeg",
-    status: "últ. vez hoy a las 9:20 p.m.",
+    status: "últ. vez hoy a las 7:48 p.m.",
     messages: [
-      { from: "received", text: "¿Vienes?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "te " },
+      { from: "sent", text: "?" },
+      {from: "sent", text:"como esta"},
+      {from:"sent", text:"pasamos el jueves"},
+      {from:"sent", text:"si te avisaron ?"}
+      
     ]
   },
 
@@ -92,18 +113,24 @@ amigo8: {
     img: "img-perfil/foto9.jpeg",
     status: "últ. vez hoy a las 9:20 p.m.",
     messages: [
-      { from: "received", text: "¿Vienes?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "Vienes" },
+      { from: "sent", text: "no puesh" },
+      { from: "received", text: "me avisas" },
+      { from: "received", text: "vendra tambien nancy" },
+      { from: "received", text: "alas11 llegan " },
     ]
   },
 
   amigo10: {
     name: "5524677639",
     img: "img-perfil/foto10.jpeg",
-    status: "últ. vez hoy a las 9:20 p.m.",
+    status: "últ. vez hoy a las 10:21 a.m.",
     messages: [
-      { from: "received", text: "¿hola amigo estas?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "hola amigo estas?" },
+      { from: "sent", text: "bien gracias y tu ?" },
+      { from: "sent", text: "vamos manaña acompañame" },
+       { from: "received", text: "si esta bien vamos tambien esta pensando en eso" },
+       {from: "recelved", text:"entonces que hora"}
     ]
   },
 
@@ -112,8 +139,8 @@ amigo8: {
     img: "img-perfil/foto11.jpeg",
     status: "últ. vez hoy a las 3:20 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "" },
+      { from: "sent", text: "" }
     ]
   },
 
