@@ -10,11 +10,9 @@ body {
   background-color: #f0f0f0;
 }
 
-
-
 .sidebar {
-  width: 300px; /* o el ancho que tengas */
-  height: 100vh; /* altura de la ventana */
+  width: 300px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #f0f0f0;
@@ -43,7 +41,7 @@ body {
 
 .chat-list {
   flex-grow: 1;
-  overflow-y: auto; /* Scroll solo aquí */
+  overflow-y: auto;
 }
 
 .chat {
@@ -149,26 +147,15 @@ body {
   cursor: pointer;
 }
 
-
-/* Botón volver oculto por defecto */
+/* Eliminar botón volver completamente */
 .back-button {
   display: none !important;
-  
 }
 
-/* En móviles: muestra botón y cambia diseño */
+/* Ajustes mínimos en móviles: sin cambiar layout general */
 @media screen and (max-width: 768px) {
-  
   .sidebar {
-    width: 100%;
-    max-height: 40vh;
-    overflow-y: auto;
-  }
-
-  .chat-window {
-    width: 100%;
-    flex: 1;
-    overflow-y: auto;
+    width: 100px;
   }
 
   .chat {
@@ -188,6 +175,11 @@ body {
     padding: 8px 12px;
   }
 
+  .chat-name {
+    font-size: 14px;
   }
 
-
+  .chat-preview {
+    font-size: 12px;
+  }
+}
