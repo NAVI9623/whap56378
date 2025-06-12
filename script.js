@@ -12,8 +12,82 @@ function sendMessage() {
   input.focus();
 }
 
+document.getElementById("btnPerfil").addEventListener("click", function () {
+  window.location.href = "perfil.html";
+});
+
 
 const chats = {
+
+ amigo24: {
+    name: "5623584581",
+    img: "",
+    status: "últ. vez hoy a la(s) 3:38 p.m.",
+    messages: [
+      { from: "received", imge: "/img-perfil/fami1.jpeg" },
+      { from: "sent", text: "huy ya tiene rato esa foto" },
+      { from: "received", text: "me gusto y me la pediste ese dua" },
+      { from: "sent", text: "ni me acuerdo jajaj" },
+      { from: "received", text: "bueno ya te la pase" },
+      { from: "sent", text: "ya la tenia la vera jajaj " },
+       { from: "sent", text: "pues ya que " },
+      { from: "received", text: "gracias gracias" },
+      { from: "received", text: "" },
+    ]
+  },
+
+
+
+ amigo23: {
+    name: "6730302020",
+    img: "",
+    status: "últ. vez hoy a la(s) 3:38 p.m.",
+    messages: [
+      { from: "received", text: "es que la verdad no se mucho de eso" },
+      { from: "sent", text: "algun conocido que tenggas" },
+      { from: "received", text: "si creo alguien deja le pregunto" },
+      { from: "sent", text: "por favor" },
+      { from: "received", text: "si pero en si cual es el problema" },
+      { from: "sent", text: "engo problea con mi numero telefonico me desvia llamadas " },
+       { from: "sent", text: "todo el fin de semana y no se que onda  " },
+      { from: "received", text: "desde cuando" },
+      { from: "received", text: "dejame preguntar porque luego dan de baja los chip de la nada" },
+    ]
+  },
+
+
+ amigo22: {
+    name: "6747348273",
+    img: "",
+    status: "últ. vez hoy a la(s) 3:38 p.m.",
+    messages: [
+      { from: "received", text: "te veo" },
+      { from: "sent", text: "donde siempre 👩‍🦲" },
+      { from: "received", text: "en Patoni frente ala iglesia y la plaza" },
+      { from: "sent", text: "la plaza de armas verdad ?" },
+      { from: "received", text: "ok" },
+      { from: "sent", text: "ok de todos modos te marco rumbo " },
+      { from: "received", text: "si de acuerdo no tardes porque con tigo ni se sabe jaja 💚" },
+    { from: "sent", text: "prometido gupo 🤍 " },
+    ]
+  },
+
+
+ amigo21: {
+    name: "kasandra",
+    img: "img-perfil/foto21.jpg",
+    status: "últ. vez hoy a la(s) 1:38 p.m.",
+    messages: [
+      { from: "received", text: "sisupiste que esta pasando" },
+      { from: "sent", text: "le estoy preguntando a un tio" },
+      { from: "received", text: "beno amiga porque si esta raro too el fin de semana casi ni te llegan" },
+      { from: "sent", text: "si lo se me parece raro y ya lo desistale e intale y creo ya quedo" },
+      { from: "received", text: "ok" },
+      { from: "sent", text: "gracias de todos modos si ves algo rro me avisas" }
+    ]
+  },
+
+
   amigo1: {
     name: "6747678798",
     img: "img-perfil/foto1.jpeg",
@@ -40,7 +114,7 @@ const chats = {
     ]
   },
   amigo3: {
-    name: "6743456574<",
+    name: "6743456574",
     img: "img-perfil/foto3.jpeg",
     status: "últ. vez hoy a las 10:10 p.m.",
     messages: [
@@ -130,7 +204,7 @@ amigo8: {
       { from: "sent", text: "bien gracias y tu ?" },
       { from: "sent", text: "vamos manaña acompañame" },
        { from: "received", text: "si esta bien vamos tambien esta pensando en eso" },
-       {from: "recelved", text:"entonces que hora"}
+       {from: "received", text:"entonces que hora"}
     ]
   },
 
@@ -149,8 +223,13 @@ amigo8: {
     img: "img-perfil/foto12.jpeg",
     status: "últ. vez hoy a las 2:20 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "amiga  todo bien" },
+      { from: "received", text: "me aparece que verifique si conosco este contacto" },
+      { from: "sent", text: "Sí segun yo " },
+      { from: "sent", text: "pero si noto raro mi wats no me actualiza rapido" },
+      { from: "received", text: "y como ya noo puedo tomar capturas no pueo mostrarte" },
+      { from: "sent", text: "si la verdad esta raro voy a preguntar o a desistalar wats" },
+      { from: "received", text: "ok veras a julio 🐷 ?" }
     ]
   },
 
@@ -159,8 +238,10 @@ amigo8: {
     img: "img-perfil/foto13.jpeg",
     status: "últ. vez hoy a las 1:20 a.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "" },
+      { from: "sent", text: "?" },
+      { from: "sent", text: "que necesitas ?" },
+      { from: "sent", text: "buenas buenas" }
     ]
   },
 
@@ -170,8 +251,13 @@ amigo8: {
     img: "img-perfil/foto14.jpeg",
     status: "últ. vez hoy a las 5:20 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "Sí" }
+      { from: "received", text: "dime que dia puedes ?" },
+      { from: "sent", text: "Sí o creo que el domingo" },
+      { from: "sent", text: "ya estoy a qui en a plaza" },
+       { from: "sent", text: "no t eveo" },
+       { from: "received", text: "estuvo bueno el fin e semana no ?" },
+       { from: "sent", text: "si me gusto mucho 💞" },
+              { from: "sent", text: "jueves si puedes me marcas a " },
     ]
   },
 
@@ -180,8 +266,8 @@ amigo8: {
     img: "img-perfil/foto15.jpeg",
     status: "últ. vez hoy a las 8:20 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "mañana" }
+      { from: "received", text: "hola" },
+      { from: "sent", text: "quien eres ?" }
     ]
   },
 
@@ -190,8 +276,10 @@ amigo8: {
     img: "img-perfil/foto16.jpeg",
     status: "últ. vez hoy a las 8:20 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "mañana" }
+      { from: "received", text: "hola mija" },
+      { from: "sent", text: "digame tia" },
+      { from: "sent", text: "todo bien" },
+      { from: "sent", text: "😁" }
     ]
   },
 
@@ -200,8 +288,8 @@ amigo8: {
     img: "img-perfil/foto17.jpeg",
     status: "últ. vez hoy a las 2:00 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "mañana" }
+      { from: "received", text: "buenas tardes" },
+      { from: "sent", text: "" }
     ]
   },
 
@@ -210,8 +298,14 @@ amigo8: {
     img: "img-perfil/foto18.jpeg",
     status: "últ. vez hoy a las 5:56 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "mañana" }
+      { from: "received", text: "Tienes tiempo hoyy" },
+      { from: "sent", text: "mañana" },
+      { from: "received", text: "te lo envie desde el viernes" },
+      { from: "sent", text: "enserio ?" },
+      { from: "received", text: "de verdad no las palomas me aprecieron" },
+      { from: "sent", text: "tengo dos personas que me dicen lo mismo" },
+      { from: "received", text: "no nos quieres contestar o que mensa jajaja" },
+      { from: "sent", text: "no la verdad no jajajja no pero no se que onda" },
     ]
   },
 
@@ -221,8 +315,8 @@ amigo8: {
     img: "img-perfil/foto19.jpeg",
     status: "últ. vez hoy a las 3:56 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "mañana" }
+      { from: "received", text: "😁" },
+      { from: "sent", text: "😶" }
     ]
   },
 
@@ -231,8 +325,10 @@ amigo8: {
     img: "img-perfil/foto20.jpeg",
     status: "últ. vez hoy a las 3:00 p.m.",
     messages: [
-      { from: "received", text: "creo que si?" },
-      { from: "sent", text: "mañana" }
+      { from: "received", text: "holaaaaa" },
+      { from: "received", text: "ya no me quieres hablar 💔" },
+      { from: "sent", text: "?" },
+      { from: "received", text: "nrts" },
     ]
   },
 
