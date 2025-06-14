@@ -39,8 +39,8 @@ const chats = {
 
 
  amigo23: {
-    name: "6730302020",
-    img: "",
+    name: "618 123 4739",
+    img: "img-perfil/foto23.jpg",
     status: "últ. vez hoy a la(s) 3:38 p.m.",
     messages: [
       { from: "received", text: "es que la verdad no se mucho de eso" },
@@ -52,6 +52,9 @@ const chats = {
        { from: "sent", text: "todo el fin de semana y no se que onda  " },
       { from: "received", text: "desde cuando" },
       { from: "received", text: "dejame preguntar porque luego dan de baja los chip de la nada" },
+     { from: "received", text: "alguin mas tiene tu correo" },
+    { from: "sent", text: "no solo yoo  " },
+    { from: "received", text: "tal ves dejaste una secion en algun telefoono antiguo" },
     ]
   },
 
