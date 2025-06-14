@@ -19,8 +19,78 @@ document.getElementById("btnPerfil").addEventListener("click", function () {
 
 const chats = {
 
+  amigo28: {
+    name: "5524561987",
+    img: "",
+    status: "últ. vez hoy a la(s) 4:00 p.m.",
+    messages: [
+        { from: "received", imge: "/img-perfil/fami5.jpeg" },
+        { from: "sent", text: " cómo va todo? " },
+        { from: "received", text: "bien, pero con muchas por hcaer" },
+        { from: "sent", text: "uff, yo igual!" },
+        { from: "received", text: "" },
+      
+    ]
+},
+
+
+  amigo27: {
+    name: "6186878790",
+    img: "",
+    status: "últ. vez hoy a la(s) 3:45 p.m.",
+    messages: [
+        { from: "received", imge: "/img-perfil/fami4.jpeg" },
+        { from: "sent", text: "hey 😃" },
+        { from: "received", text: "todo bien?" },
+        { from: "sent", text: "quien eres" },
+        { from: "received", text: "te conoco" },
+        { from: "sent", text: "no" },
+        { from: "received", text: "te mando" },
+        { from: "sent", text: "??" },
+        { from: "received", text: "" },
+    ]
+},
+
+
+  amigo26: {
+    name: "6184237982",
+    img: "",
+    status: "últ. vez hoy a la(s) 3:30 p.m.",
+    messages: [
+        { from: "received", imge: "/img-perfil/fami3.jpeg" },
+        { from: "sent", text: "te acuerdas hace un año 🎉" },
+        { from: "received", imge: "/img-perfil/fami3.jpeg" },
+        { from: "received", text: "cómo olvidarlas" },
+        { from: "sent", text: "sí" },
+        { from: "received", text: "jajaja, yo tampoco 😂" },
+        { from: "sent", text: "deberíamos hacer otra pronto" },
+        { from: "received", text: "totalment" },
+        { from: "sent", text: "voy" },
+        { from: "received", text:  "uiero ayudar!" },
+    ]
+},
+
+
+  amigo25: {
+    name: "5587297122",
+    img: "",
+    status: "últ. vez hoy a la(s) 3:15 p.m.",
+    messages: [
+        { from: "received", imge: "/img-perfil/fami2.jpeg" },
+        { from: "sent", text: "hey, que tal 😁" },
+        { from: "received", text: "todo bien, y tú" },
+        { from: "sent", text: "pensando en ir este fin." },
+        { from: "received", text: "cena y qué película" },
+        { from: "sent", text: "si" },
+        { from: "received", text: "me apunto 🎉" },
+        { from: "sent", text: "perfecto" },
+        { from: "received", text: "sí, avísame" },
+    ]
+},
+
+
  amigo24: {
-    name: "5623584581",
+    name: "5576337833",
     img: "",
     status: "últ. vez hoy a la(s) 3:38 p.m.",
     messages: [
