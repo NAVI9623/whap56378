@@ -24,7 +24,7 @@ const chats = {
     img: "",
     status: "últ. vez hoy a la(s) 4:00 p.m.",
     messages: [
-        { from: "received", imge: "/img-perfil/fami5.jpeg" },
+        
         { from: "sent", text: " cómo va todo? " },
         { from: "received", text: "bien, pero con muchas por hcaer" },
         { from: "sent", text: "uff, yo igual!" },
@@ -39,7 +39,7 @@ const chats = {
     img: "",
     status: "últ. vez hoy a la(s) 3:45 p.m.",
     messages: [
-        { from: "received", imge: "/img-perfil/fami4.jpeg" },
+       
         { from: "sent", text: "hey 😃" },
         { from: "received", text: "todo bien?" },
         { from: "sent", text: "quien eres" },
@@ -57,7 +57,7 @@ const chats = {
     img: "",
     status: "últ. vez hoy a la(s) 3:30 p.m.",
     messages: [
-        { from: "received", imge: "/img-perfil/fami3.jpeg" },
+        { from: "received", img: "img-perfil/fami2.jpeg" },
         { from: "sent", text: "te acuerdas hace un año 🎉" },
         { from: "received", imge: "/img-perfil/fami3.jpeg" },
         { from: "received", text: "cómo olvidarlas" },
@@ -76,7 +76,7 @@ const chats = {
     img: "",
     status: "últ. vez hoy a la(s) 3:15 p.m.",
     messages: [
-        { from: "received", imge: "/img-perfil/fami2.jpeg" },
+       
         { from: "sent", text: "hey, que tal 😁" },
         { from: "received", text: "todo bien, y tú" },
         { from: "sent", text: "pensando en ir este fin." },
@@ -94,7 +94,7 @@ const chats = {
     img: "",
     status: "últ. vez hoy a la(s) 3:38 p.m.",
     messages: [
-      { from: "received", imge: "/img-perfil/fami1.jpeg" },
+      { from: "received", img: "img-perfil/fami1.jpeg" },
       { from: "sent", text: "huy ya tiene rato esa foto" },
       { from: "received", text: "me gusto y me la pediste ese dua" },
       { from: "sent", text: "ni me acuerdo jajaj" },
@@ -427,7 +427,15 @@ function openChat(id) {
       </div>
     </div>
     <div class="chat-messages" id="messages">
-      ${chat.messages.map(msg => `<div class="message ${msg.from}">${msg.text}</div>`).join('')}
+       ${chat.messages.map(msg => {
+        
+        if (msg.text) {
+          return `<div class="message ${msg.from}">${msg.text}</div>`;
+        } else if (msg.img) {
+          return `<div class="message ${msg.from}"><img src="${msg.img}" class="message-img" /></div>`;
+        }
+        return "";
+      }).join('')}
     </div>
     <div class="chat-input">
       <input type="text" id="inputMessage" placeholder="Escribe un mensaje" />
