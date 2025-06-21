@@ -91,7 +91,7 @@ const chats = {
 
  amigo24: {
     name: "5576337833",
-    img: "",
+    img: "img-perfil/foto24.jpeg",
     status: "últ. vez hoy a la(s) 3:38 p.m.",
     messages: [
       { from: "received", img: "img-perfil/fami1.jpeg" },
