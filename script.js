@@ -19,6 +19,107 @@ document.getElementById("btnPerfil").addEventListener("click", function () {
 
 const chats = {
 
+  // JavaScript
+amigo29: {
+  name: "618126357",
+  img: "img-perfil/foto29.jpeg",
+  status: "últ. vez hoy a la(s) 11:30 a.m.",
+  messages: [
+    { from: "received", text: "Oye tienes el número de las gorditas " },
+    { from: "sent", text: "Siii 🫓" },
+    { from: "sent", text: "a no creo que no jaja" },
+    
+    { from: "received", text: " antojo bien cabrón jaja" },
+    { from: "sent", text: "pide las de chicharrón, " },
+    { from: "sent", text: "solo elmenu pero no vene ningun numero, " },
+    { from: "sent", img: "img-perfil/menu1.jpeg" },
+    { from: "sent", text: "buscare, " },
+    { from: "received", text: " pa' no quedarme con ganas 😋" },
+    { from: "sent", text: " si " },
+    { from: "received", text: "Va va" }
+  ]
+},
+
+amigo30: {
+  name: "6181167628",
+  img: "img-perfil/foto30.jpeg",
+  status: "últ. vez hoy a la(s) 2:15 p.m.",
+  messages: [
+   
+  ]
+},
+
+amigo31: {
+  name: "6186380827",
+  img: "img-perfil/foto31.jpeg",
+  status: "últ. vez hoy a la(s) 4:20 p.m.",
+  messages: [
+    { from: "received", text: "Ey vi tu story, " },
+    { from: "sent", text: "Sii estuvo súper" },
+    { from: "received", text: "Estaba con la familia " },
+    { from: "sent", text: "La próxima en mi casa, avísame con tiempo" },
+    { from: "received", text: "Sale!" },
+    { from: "sent", text: "Perfecto" }
+  ]
+},
+
+amigo32: {
+  name: "5547678798",
+  img: "img-perfil/foto32.jpeg",
+  status: "últ. vez hoy a la(s) 6:45 p.m.",
+  messages: [
+    
+  ]
+},
+
+amigo33: {
+  name: "5634568954",
+  img: "img-perfil/foto33.jpeg",
+  status: "últ. vez hoy a la(s) 9:10 p.m.",
+  messages: [
+    { from: "received", text: "Oye me pasas eso" },
+    { from: "sent", text: "Claro Pero no están muy completos jaja" },
+    { from: "received", text: "No importa, 😫" },
+    { from: "sent", text: "Ahí te los mando" },
+    { from: "received", text: "Sii muchas gracias! Te debo un café ☕" },
+    { from: "sent", text: "Jaja de nada" },
+    { from: "received", text: "Gracias✨" }
+  ]
+},
+
+// JavaScript
+amigo34: {
+  name: "5578426391",
+  img: "img-perfil/foto34.jpeg",
+  status: "últ. vez hoy a la(s) 1:22 p.m.",
+  messages: [
+   
+    { from: "received", text: "NO MAMES WEY 🤣🤣🤣 y qué hizo el" },
+    { from: "sent", text: "Me saludó de vuelta 😭" },
+    { from: "received", text: "Jajaja estás más dormida q despierta we " },
+    { from: "sent", text: "Es q no había tomado café aún ☕" },
+    { from: "received", text: "Ya veo xD " }
+  ]
+},
+
+amigo35: {
+  name: "5543218765",
+  img: "img-perfil/foto35.jpeg",
+  status: "últ. vez hoy a la(s) 8:05 p.m.",
+  messages: [
+    { from: "received", text: "Perdonn por lo de anoche 🙏" },
+    { from: "sent", text: "No te preocupes no pasa nada 😅" },
+    { from: "received", text: "Es q estaba bie" },
+    { from: "sent", text: "JAJAJA AH CARAY! " },
+    { from: "received", text: "Sii cuando bailaba 💃" },
+    { from: "sent", text: "Tranqu" },
+    { from: "received", text: "AY NO MAMES! Me sentía tan mal!" },
+    { from: "sent", text: "Jaja " },
+    { from: "received", text: "xD" }
+  ]
+},
+
+
   amigo28: {
     name: "5524561987",
     img: "",
