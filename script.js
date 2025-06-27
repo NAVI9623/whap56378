@@ -508,7 +508,9 @@ amigo8: {
     status: "últ. vez hoy a las 3:56 p.m.",
     messages: [
       { from: "received", text: "😁" },
-      { from: "sent", text: "😶" }
+      { from: "sent", text: "😶" },
+      { from: "received", text: "si mevas a compañar entonces" },
+      { from: "received", text: "ni me confrmaste el miercoels" },
     ]
   },
 
