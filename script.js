@@ -41,7 +41,9 @@ const chats = {
      { from: "received", text: "si cambiaste denemro como te dije ?" },
      { from: "sent", text: "si ya tengo uno nuevo pero un no lopaso  " },
      { from: "sent", text: "por mis contactos voy a esperar haber si sabe algo antes de pasarlo  " },
-    {from: "received", text: "algine mas tiene tu cuenta eso es seguro" }
+    {from: "received", text: "algine mas tiene tu cuenta eso es seguro" },
+    {from: "received", text: "me dijiste que tenias nombres de quin podian ser si quieres pasamesus perfiles" },
+    { from: "sent", text: "si tego mis sospechas " },
     ]
   },
 
