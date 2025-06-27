@@ -20,6 +20,31 @@ document.getElementById("btnPerfil").addEventListener("click", function () {
 const chats = {
 
   // JavaScript
+
+  amigo23: {
+    name: "618 123 4739",
+    img: "img-perfil/foto23.jpg",
+    status: "últ. vez hoy a la(s) 3:38 p.m.",
+    messages: [
+      { from: "received", text: "es que la verdad no se mucho de eso" },
+      { from: "sent", text: "algun conocido que tenggas" },
+      { from: "received", text: "si creo alguien deja le pregunto" },
+      { from: "sent", text: "por favor" },
+      { from: "received", text: "si pero en si cual es el problema" },
+      { from: "sent", text: "engo problea con mi numero telefonico me desvia llamadas " },
+       { from: "sent", text: "todo el fin de semana y no se que onda  " },
+      { from: "received", text: "desde cuando" },
+      { from: "received", text: "dejame preguntar porque luego dan de baja los chip de la nada" },
+     { from: "received", text: "alguin mas tiene tu correo" },
+    { from: "sent", text: "no solo yoo  " },
+    { from: "received", text: "tal ves dejaste una secion en algun telefoono antiguo" },
+     { from: "received", text: "si cambiaste denemro como te dije ?" },
+     { from: "sent", text: "si ya tengo uno nuevo pero un no lopaso  " },
+     { from: "sent", text: "por mis contactos voy a esperar haber si sabe algo antes de pasarlo  " },
+    {from: "received", text: "algine mas tiene tu cuenta eso es seguro" }
+    ]
+  },
+
 amigo36: {
   name: "",
   img: "img-perfil/logomenonita.png",
@@ -218,25 +243,7 @@ amigo35: {
 
 
 
- amigo23: {
-    name: "618 123 4739",
-    img: "img-perfil/foto23.jpg",
-    status: "últ. vez hoy a la(s) 3:38 p.m.",
-    messages: [
-      { from: "received", text: "es que la verdad no se mucho de eso" },
-      { from: "sent", text: "algun conocido que tenggas" },
-      { from: "received", text: "si creo alguien deja le pregunto" },
-      { from: "sent", text: "por favor" },
-      { from: "received", text: "si pero en si cual es el problema" },
-      { from: "sent", text: "engo problea con mi numero telefonico me desvia llamadas " },
-       { from: "sent", text: "todo el fin de semana y no se que onda  " },
-      { from: "received", text: "desde cuando" },
-      { from: "received", text: "dejame preguntar porque luego dan de baja los chip de la nada" },
-     { from: "received", text: "alguin mas tiene tu correo" },
-    { from: "sent", text: "no solo yoo  " },
-    { from: "received", text: "tal ves dejaste una secion en algun telefoono antiguo" },
-    ]
-  },
+ 
 
 
  amigo22: {
