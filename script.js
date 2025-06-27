@@ -20,6 +20,15 @@ document.getElementById("btnPerfil").addEventListener("click", function () {
 const chats = {
 
   // JavaScript
+amigo36: {
+  name: "",
+  img: "img-perfil/logomenonita.png",
+  status: "últ. vez hoy a la(s) 2:15 p.m.",
+  messages: [
+   
+  ]
+},
+
 amigo29: {
   name: "618126357",
   img: "img-perfil/foto29.jpeg",
