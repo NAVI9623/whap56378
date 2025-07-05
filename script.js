@@ -21,6 +21,69 @@ const chats = {
 
   // JavaScript
 
+   amigo38: {
+    name: "5512345678",
+    img: "https://placehold.co/100x100",
+    status: "en línea",
+    messages: [
+      { from: "received", text: "Oye bro, ¿sigo teniendo el descuento de cliente frecuente?" },
+      { from: "sent", text: "Claro mi rey, para ti siempre hay promo" },
+      { from: "received", text: "Jaja chido, pero está bien caro eso que subiste ayer" },
+      { from: "sent", text: "Es material premium compa, pero te dejo en 300 si lo quieres ya" },
+      { from: "sent", text: "tengo roblemas con este numero les aviso si lo cambio" }
+    ]
+  },
+  amigo39: {
+    name: "5576543210",
+    img: "https://placehold.co/100x100",
+    status: "escribiendo...",
+    messages: [
+      { from: "received", text: "Hola amor, quiero el paquete premium pero no tan caro jaja" },
+      { from: "sent", text: "Dime qué buscas y vemos precio bonito ;)" },
+      { from: "received", text: "Todo lo de lencería y un videíto como el de tu perfil" },
+      { from: "sent", text: "Ahhh eso es aparte mamacita, pero te lo dejo en paquete" },
+   { from: "sent", text: "tengo roblemas con este numero les aviso si lo cambio" }
+    ]
+  },
+  amigo40: {
+    name: "5587654321",
+    img: "https://placehold.co/100x100",
+    status: "últ. vez hoy a las 5:00 p.m.",
+    messages: [
+      { from: "received", text: "Jajaja no mames wey, qué pedo con eso que publicaste" },
+      { from: "sent", text: "Jajaja ya sé, está bien culero pero tiene views" },
+      { from: "received", text: "Sí wey de pura gente que quiere verte mal" },
+      { from: "sent", text: "Nel, si pagan pues qué más da jaja" },
+    { from: "sent", text: "tengo roblemas con este numero les aviso si lo cambio" },
+    { from: "sent", text: "si ya me avias cometado ya te quieren bannear jaja" },
+  ]
+  },
+
+   amigo41: {
+    name: "5534567890",
+    img: "https://placehold.co/100x100",
+    status: "en línea",
+    messages: [
+      { from: "received", text: "Oye manda demo de las fotos nuevas, no me aparecen" },
+      { from: "sent", text: "No puedo mandar preview de todo amor, es contenido exclusivo" },
+      { from: "received", text: "Pues ni modo, ya me perdiste, así no trabajo yo" },
+      { from: "sent", text: "Mira te mando algo pero no todo, está bien?" },
+    { from: "sent", text: "tengo roblemas con este numero les aviso si lo cambio" }
+    ]
+  },
+  amigo42: {
+    name: "5598765432",
+    img: "https://placehold.co/100x100",
+    status: "últ. vez hoy a las 5:30 p.m.",
+    messages: [
+      { from: "received", text: "Ya transferí a tu cuenta, mándame el pack completo según lo acordado" },
+      { from: "sent", text: "Va, ya te mando link por priv. Gracias!" },
+      { from: "received", text: "No me falles, eh? Es regalo de cumple" },
+      { from: "sent", text: "Tranqui, todo en orden. Que lo disfruten!" },
+     { from: "sent", text: "tengo roblemas con este numero les aviso si lo cambio" }
+    ]
+  },
+
   amigo23: {
     name: "618 123 4739",
     img: "img-perfil/foto23.jpg",
